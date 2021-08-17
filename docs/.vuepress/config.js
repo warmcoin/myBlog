@@ -1,5 +1,5 @@
 module.exports = {
-  title: '个人主页',
+  title: '我的狗窝',
   description: 'Personal Website',
   head: [ // 注入到当前页面的 HTML <head> 中的标签
     ['link', { rel: 'icon', href: '/images/photo.jpg' }],
@@ -19,7 +19,7 @@ module.exports = {
       {text: '前端基础', link: '/accumulate/' },
       {text: '算法题库', link: '/algorithm/'},
       {text: '诗和远方', link: '/others/'},
-      {text: '微博', link: 'https://baidu.com'}      
+      {text: '关于我', link: 'https://warmcoin.github.io/'}
     ],
     // sidebar:{
     //   '/accumulate/': [
@@ -41,11 +41,11 @@ module.exports = {
     //       }
     //     ],
     //     '/algorithm/': [
-    //       '/algorithm/', 
+    //       '/algorithm/',
     //       {
     //         title: '第二组侧边栏下拉框的标题1',
     //         children: [
-    //           '/algorithm/' 
+    //           '/algorithm/'
     //         ]
     //       }
     //     ]
